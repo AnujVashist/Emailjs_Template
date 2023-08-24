@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,94,0);
+    background: linear-gradient(90deg, rgba(255,94,0,1) 27%, rgba(6,97,1,1) 77%); 
+
+}
+.text{
+    margin: auto;
+    width: 25%;
+
+}
+.divi{
+    /* background-color: #ffffffe5; */
+    background-color: transparent;
+}
+.div1{
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.main-text{
+    text-align: center;
+    color: #ffffffbb;
+    line-height: 30px;
+}
+.main-text>i:hover{
+    color: #ffffff;
+}
+.main-text>span{
+    color: #ee6f6fb7;
+
+}
+.form-group{
+    /* position: relative; */
+    margin: 15px 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    align-items: left;
+}
+.form-group>label{
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.form-main{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.icon{
+    color: #000000;
+    padding: 10px;
+
+}
+.icon1{
+    color: #000000;
+    min-width: 50px;
+    padding: 9px 15px 9px 25px;
+    width: 12%;
+}
+.input-field {
+    width: 95%;
+    padding: 5px 5px;
+    border: none;
+    background-color: #fff;
+}
+.input-field1{
+    width: 85%;
+    margin: 5px 5px;
+    padding: 5px 0;
+    border: none;
+}
+.input-field2 {
+    width: 100%;
+    padding: 9px 5px;
+    border: none;
+    background-color: #fff;
+}
+.input-field2:hover {
+    background: rgb(255,94,0);
+    background: linear-gradient(90deg, rgba(255, 94, 0, 0.219) 27%, rgba(6, 97, 1, 0.144) 77%); 
+    border: 1px solid white;
+    color: #ffffff;
+}
+.input-field3{
+    width: 100%;
+    padding: 5px 5px;
+    border: none;
+    background-color: #fff;
+}
+select {
+    word-wrap: normal;
+    width: 25%;
+    background: transparent;
+    border: none;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .text {
+        width: 95%;
+    }
+    .form-group {
+        margin: 15px -20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .text {
+        width: 75%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .text {
+        width: 80%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .text {
+        margin: auto;
+        width: 40%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .text {
+        margin: auto;
+        width: 50%;
+    }
+}
